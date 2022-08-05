@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+/*cummon Css Start*/
+h1,h2,h3,h4,h5,h6,
+p,span{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+a,a:hover{
+    text-decoration: none;
+}
+:root{
+    --primary_color:#222A36;
+    --secondry_color:#000;
+    --secondry_font:font-family: 'Playfair Display', serif;
+}
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/*//cummon Css End*/
+/*nav Section Css Start*/
+#nav{
+    background-color: transparent;
+    position: absolute;
+    z-index: 9999;
+    width: 100%;
+}
+#nav .logo{
+    font-family: var(--primary_font);
+    font-weight: 700;
+    color: #fff;
+}
+#nav #menu ul li a{
+    padding: 35px 20px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+}
+#nav #menu .contact_btn a{
+    display: block;
+    padding: 18px 21px;
+    background: #676CDB;
+    color: #fff;
+    margin-left: 333px;
+}
+/*//nav Section Css End*/
+/*banner Section Css Start*/
+#banner{
+    height: 743px;
+    background-color: var(--primary_color);
+    position: relative;
+}
+#banner .bnr_left {
+    margin-top: 20%;
+}
+#banner .bnr_left h2,
+#banner .bnr_left h1{
+    font-family: var(--secondry_font);
+    font-weight: 700;
+    font-size: 59px;
+    line-height: 120%;
+    color: #fff;
+}
+#banner .bnr_left p{
+    font-weight: 400;
+    width: 74%;
+    font-size: 20px;
+    line-height: 180%;
+    color: #fff;
+}
+#banner .bnr_left .bnr_btn a{
+    display: inline-block;
+    text-align: center;
+    padding: 22px 43px;
+    background-color: #676CDB;
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 6px;
+    line-height: 120%;
+    margin-top: 35px;
+}
+#banner .bnr_left .bnr_btn a:last-child{
+    background-color: transparent;
+}
+/*//banner Section Css End*/
+/*skillicon Section Css Start*/
+#skill_icon{
+    background-color: #000;
+    padding: 15px 0;
+}
+#skill_icon img{
+    display: block;
+    
+}
+/*//skillicon Section Css End*/
+/*experience Section Css Start*/
+#experience{
+    background-color: var(--primary_color);
+    padding: 20px 0;
+}
+#experience .exp_left p{
+    font-family: var(--secondry_font);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #fff;
+}
+.exp_card .card_img{
+    width: 30%;
+    margin: 0 15px;
+    position: relative;
+    height: 295px;
+    background-color: #C4C4C4;
+    color: #000;
+    padding: 15px;
+}
+.exp_card .card_img .card_text{
+    position: absolute;
+    color: #fff;
+    left: 0;
+    bottom: 0;
+}
+/*//experience Section Css End*/
